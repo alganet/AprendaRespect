@@ -1,0 +1,6 @@
+{
+	"require": {
+		"respect/rest": "0.5.x",
+		"respect/relational": "0.5.x"
+	}
+}
