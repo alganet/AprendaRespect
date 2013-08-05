@@ -3,11 +3,7 @@
 use Respect\Relational\Db;
 use Respect\Relational\Mapper;
 
-// Step down one dir below "public"
-chdir(__DIR__ . '/..');
-
-// Now in the app dir, require the autoload from Composer
-require 'vendor/autoload.php';
+require __DIR__.'/../bootstrap.php';
 
 $connection = new PDO('sqlite:datasources/db.sq3');
 $db         = new Db($connection);

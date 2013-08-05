@@ -1,6 +1,7 @@
 {
 	"require": {
 		"respect/rest": "0.5.x",
-		"respect/relational": "0.5.x"
+		"respect/relational": "0.5.x",
+        "respect/validation": "0.4.x"
 	}
 }

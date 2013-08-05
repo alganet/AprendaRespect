@@ -1,3 +1,4 @@
 composer.lock
 vendor
 datasources/db.sq3
+*.swp
